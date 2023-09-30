@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
+
+    .container {
+        width: 736px;
+        height: 512px;
+
+        .left {
+            background: linear-gradient(#7755ff, #2F2CE9);
+
+            .circle {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                
+                background: linear-gradient(rgba(37, 33, 201, 1), rgba(77, 33, 201, 0));
+
+                top: 104px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            h1 {
+                margin-top: 263px;
+            }
+        }
+    }
+}
